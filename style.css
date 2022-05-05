@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: rgb(240, 240, 240);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(37, 37, 37);
+
+}
+nav{
+    background-color: rgb(52, 52, 52);
+    height: 100px;
+    border-bottom: 2px solid rgb(70, 70, 70);
+    flex:0 1 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+  
+}
+.ikon{
+    flex: 1 0 10%;
+}
+.ikon img{
+    margin-left: 20px;
+    width: 170px;
+}
+.link{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-left: 1px solid rgb(88, 88, 88);
+
+}
+.link a{
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+    padding: 20px;
+}
+.link a:hover{
+    border-bottom: 1px solid rgb(165, 165, 165);
+    color: rgb(124, 124, 124);
+}
+
+article{
+    padding: 15px;
+    flex:0 1 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#tarolo2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.game{
+    flex: 1 1 10%;
+    position: relative;
+    max-height: fit-content;
+    overflow: hidden;
+    text-align: left;
+}
+.game h3{
+    margin:0;
+    padding: 20px;
+    background-color: rgb(53, 53, 53);
+    
+}
+
+.game img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    vertical-align: bottom;
+}
+footer{
+    margin-top: 50px;
+    flex: 0 0 100%;
+    background-color: black;
+    height: 75px;
+    text-align: center;
+}
+
+
+
+.b1{
+    flex: 1 1 10%;
+    max-height: fit-content;
+    overflow: hidden;
+    text-align: left;
+    height: 500px;
+    object-fit: cover;
+    vertical-align: bottom;
+
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+        background-color: #ccc;
+      
+    
+}
+.b1 img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    vertical-align: bottom;
+}
+.b1 h3{
+    margin:0;
+    padding: 20px;
+    background-color: rgb(53, 53, 53);
+    
+}
+.gomb{
+    z-index: 100;
+    position: absolute;
+    right: 45%;
+    bottom: 35%;
+
+}
